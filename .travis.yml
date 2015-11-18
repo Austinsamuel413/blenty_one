@@ -13,6 +13,6 @@ deploy:
   app: thawing-wave-6997
   on:
     repo: Austinsamuel413/blenty_one
-    run:
-    - "rake db:migrate"
-    - "rake cleanup"
+  run:
+  - "rake db:migrate"
+  - "rake cleanup"
